@@ -1,0 +1,44 @@
+body{
+	font-family: arial;
+}
+#slider{
+	background-image: url(../images/travel.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.customSlider{
+	background-color: rgba(0,0,0,.4);
+	padding: 60px 80px;
+	color: #fff;
+	text-align: center;
+}
+.customSlider h1{
+	font-size: 50px;
+}
+.customSlider p{
+	padding: 10px;
+	font-size: 25px;
+}
+.customSlider button{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.carousel-indicators li{
+	height: 18px;
+	width: 18px;
+	border-radius: 50%;
+}
+.carousel-indicators .active{
+	background-color: #DA577A;
+}
+.btn-outline-danger{
+	color: black;
+	border: 2px solid #fff;
+	font-size: 20px;
+}
+.btn-outline-danger:hover{
+	background-color:#DA577A;
+	border-color:#DA577A;
+	transition: 0.5s;
+}
